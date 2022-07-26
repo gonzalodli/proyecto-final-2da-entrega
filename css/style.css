@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Poppins:wght@100;300&family=Yellowtail&display=swap');
+
+*{
+	font-family: 'Poppins', sans-serif;
+	padding: 0;
+	margin: 0;
+}
+
+html{
+	font-size: 62.5%;
+}
+
+p{
+	font-family: 'Poppins', sans-serif;
+	color: black;
+	font-size: 1.8em;
+	line-height: 2em;
+}
+
+nav ul li a{
+			color: black;
+			text-decoration: none;
+			font-family: 'Poppins', sans-serif;
+			font-size: 2rem; 
+			line-height: 2.3rem;
+			background-image: linear-gradient(currentColor, currentColor);
+   			background-position: 0% 100%;
+    		background-repeat: no-repeat;
+    		background-size: 0% 2px;
+    		transition: background-size .3s;
+}
+/*index*/
+
+.botonera ul li a:hover{
+			color: black;
+			font-weight: 600;
+			background-size: 100% 2px;
+}
+.botonera ul li a{
+			font-size: 2.2rem;
+			text-decoration: none;
+			color: #5B5959;
+			background-position: 0% 100%;
+    		background-repeat: no-repeat;
+    		background-size: 0% 2px;
+    		transition: background-size .3s;
+}
+		.botonera ul li a:hover{
+			color: black;
+			font-weight: 600;
+			background-size: 100% 2px;
+}
+.bg-cream{
+	background-color: rgba(236, 220, 179, 0.8);
+}
+
+.bg-degrade{
+	background: linear-gradient(to top, #D68A31, #f0cf93 );
+	opacity: 0.9
+}
+
+
+
+#botonera img{
+	width: 280px;	
+}
+
+#botonera ul li a{
+		font-family: 'Poppins', sans-serif;
+		font-size: 1.8rem;
+		line-height: 3rem;
+		color: #323131;
+		padding-left: 18px;
+}
+
+@media (min-width: 280px) and (max-width: 340px){
+	#botonera img{
+		width: 218px;
+}
+
+.contenedor{
+	display: flex;
+}
+
+.item__cont{
+	width: 80%;
+	margin: 0 auto;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-auto-rows: 1fr;
+	grid-gap: 12px 12px;
+}
+
+.item__exp {
+	height: 400px;
+	border-radius: 8px;
+	transition: : transform 0.1s;
+}
+
+.item__exp:hover {
+	filter: opacity(0.9);
+	transform: scale(1.4);
+	transition: 2s;
+}
+
+#footer img{
+	padding: 25px;
+}
+
+
+/*novedades*/
+@media (min-width: 280px) and (max-width: 900px){
+	#galeria img{
+		width: 50px;
+}
